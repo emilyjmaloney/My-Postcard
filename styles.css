@@ -1,0 +1,82 @@
+body{ 
+    background: black; 
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 14px;
+}
+.postcard{
+    background: white; 
+    width: 340px; 
+    height: 250px;
+    margin: auto; 
+    top: 85%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    overflow: hidden;
+}
+.postcard-header{
+    height: 40px;
+}
+.postcard-header h2{
+    margin: auto;
+    float: left;
+    padding-top: 10px;
+}
+.postcard-header img{
+    width: 48px;
+    height: 48px;
+    float: right;
+}
+.postcard-main{
+    height: 155px;
+}
+.message{
+    width: 50%;
+    max-height: 100px;
+    margin-left: 0%;
+    padding-top: 10px;
+    float: left;
+}
+.address{
+    font-size: 12px;
+    float: right;
+    width: 45%;
+}
+.address input {
+    margin-bottom: 5px;
+    display: block;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.postcard-footer{
+    position: fixed;
+    margin: auto;
+    height: 40px;
+    width: 300px;
+    bottom: 0%;
+    padding: 10px;
+}
+.button {
+  background-color: #c9c4c4;
+  width: 110px;
+  height: 23px;
+  color: black;
+  padding: 2px;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  position: absolute;
+  left: 36%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom: 1px;
+}
